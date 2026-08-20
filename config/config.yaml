@@ -1,0 +1,23 @@
+# KeyCounter configuration
+# Privacy-sensitive collection is intentionally disabled by design.
+
+logging:
+  # Aggregation interval. Do not lower this unless you have a specific reason.
+  interval_minutes: 1
+
+storage:
+  # Keep service output independent of the Windows service working directory.
+  directory: "C:\\ProgramData\\KeyCounter\\data"
+
+keyboard:
+  # Used by the future heatmap renderer. Currently informational.
+  layout: "JIS"
+
+ipc:
+  pipe_name: "\\\\.\\pipe\\KeyCounter"
+
+privacy:
+  # These are hard-rejected if changed to true by the program.
+  record_key_sequence: false
+  record_characters: false
+  record_timestamps: false

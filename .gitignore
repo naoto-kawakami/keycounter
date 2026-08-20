@@ -1,0 +1,27 @@
+# Rust build artifacts
+/target/
+
+# Local configuration and environment files
+.env
+.env.*
+!.env.example
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# OS and editor backups
+*.swp
+*.swo
+*~
+
+# Images
+images/
+!images/
+images/*
+!images/heatmap.sample.svg

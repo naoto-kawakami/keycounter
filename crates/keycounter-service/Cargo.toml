@@ -1,0 +1,11 @@
+[package]
+name = "keycounter-service"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+keycounter-common = { path = "../keycounter-common" }
+windows.workspace = true
+windows-service.workspace = true

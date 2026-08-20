@@ -1,0 +1,17 @@
+# Normalize text files to LF in the repository
+* text=auto
+
+# Source and configuration files
+*.rs text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.ps1 text eol=lf
+*.json text eol=lf
+*.code-workspace text eol=lf
+*.svg text eol=lf
+
+# Binary application and data files
+*.exe binary
+*.kbd binary
