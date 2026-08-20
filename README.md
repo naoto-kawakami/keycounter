@@ -39,7 +39,7 @@ The installer:
 
 ## Configuration
 
-Edit `config/config.yaml` before installation. The default interval is 10 minutes.
+Edit `config/config.yaml` before installation. The default interval is 1 minutes.
 
 The following privacy options are intentionally rejected if set to `true`:
 
